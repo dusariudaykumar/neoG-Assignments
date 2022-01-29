@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.text-badge {
+  position: relative;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.badge {
+  position: absolute;
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.s-badge {
+  font-size: 0.7rem;
+  height: 1.2rem;
+  width: 1.2rem;
+  top: -9px;
+  right: 15px;
+}
+.l-badge {
+  height: 2rem;
+  width: 2rem;
+  top: -10px;
+  right: -13px;
+  font-size: 1.6rem;
+}
+
+.btn {
+  position: relative;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.action {
+  background-color: #3f51b5;
+  color: #fff;
+}
+.action-btn-badge {
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 50%;
+  top: -10px;
+  left: -12px;
+  background-color: #ff4081;
+}
+.hide-btn-badge {
+  height: 1.6rem;
+  width: 1.6rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  top: -10px;
+  right: -10px;
+  background-color: #3f51b5;
+}
+.fas {
+  font-size: 2.4rem;
+}
+
+.icon-badge {
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  top: -9px;
+  right: 120px;
+  font-size: 0.8rem;
+}
