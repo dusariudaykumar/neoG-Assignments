@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+body {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+/* buttons */
+
+.btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 1rem;
+}
+.btns button {
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #6200ee;
+  color: #fff;
+}
+button:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+  background-color: #ac70fa;
+}
+/* snack bar */
+.snackbar {
+  margin: 1rem;
+  width: fit-content;
+}
+.snackbar-container {
+  display: flex;
+  padding: 0.6rem;
+  gap: 1rem;
+  background-color: #333333;
+  border-radius: 0.3rem;
+}
+.stacked {
+  flex-direction: column;
+}
+.label {
+  align-self: flex-end;
+}
+.label > * {
+  padding: 0.4rem;
+}
+.baseline-position {
+  position: fixed;
+  bottom: 1rem;
+  right: 3rem;
+}
+.leading-position {
+  position: fixed;
+  bottom: 1rem;
+}
+.stacked-position {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+}
+.snackbar-text {
+  font-size: 0.9rem;
+  color: #cacaca;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #bb86fc;
+}
+.snackbar-btn-x {
+  color: #e5e5e5;
+  font-size: 1rem;
+  height: 1.3rem;
+  width: 1.3rem;
+  text-align: center;
+  cursor: pointer;
+}
+.snackbar-btn-x:hover {
+  background-color: #bababa;
+  border-radius: 50%;
+}
