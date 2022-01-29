@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+:root {
+  --subText-color: #838383;
+  --icon-text-color: #3e3e3e;
+  --icons-primary-color: #666666;
+  --icons-secondary-color: #6200ee;
+  --hover-color: #f5f5f5;
+  --active-tab-color: #ede1fd;
+  --container-Background-color: #f2f2f2;
+  --main-container-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid red; */
+}
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+h3 {
+  font-size: 1.4rem;
+  letter-spacing: 0.25px;
+  margin-top: 0.3rem;
+}
+h6 {
+  font-size: 0.8rem;
+  letter-spacing: 0.25px;
+  color: var(--subText-color);
+}
+a {
+  text-decoration: none;
+}
+
+.links:hover {
+  background-color: var(--hover-color);
+  transition: 1s ease;
+}
+.active {
+  background-color: var(--active-tab-color);
+}
+.margin-left {
+  margin-left: 1.4rem;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+.padding {
+  padding: 0.5rem;
+}
+.black-color {
+  color: var(--icon-text-color);
+}
+.icons-color {
+  color: var(--icons-primary-color);
+}
+.margin_1rem {
+  margin: 1rem;
+}
+.header {
+  padding: 0.6rem 0.8rem;
+}
+.container {
+  width: 500px;
+  height: 360px;
+  min-height: 360px;
+  min-width: auto;
+  padding: 1rem;
+  background-color: var(--container-Background-color);
+}
+.main-container {
+  width: 250px;
+  background-color: var(--main-container-color);
+  margin: auto;
+}
+.icons-font {
+  font-size: 1.3rem;
+}
+/* ----- card component 2-------- */
+.label {
+  margin-top: 1rem;
+  text-align: center;
+}
+.permanent-drawer {
+  margin: 2rem 1rem;
+  display: flex;
+  height: 70%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: 1px solid gold;
+}
+.navbar-left {
+  flex-basis: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.header-content {
+  padding: 0.6rem;
+}
+.header-content > p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 00.5rem;
+}
+.mail-title {
+  margin: 0.5rem;
+  letter-spacing: 1px;
+}
+.nav-items {
+  overflow-y: auto;
+  height: 80%;
+}
+.nav-items div {
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin: 0.5rem;
+  font-weight: 600;
+}
+.nav-items div:hover {
+  background-color: var(--active-tab-color);
+}
+.nav-items span {
+  margin-left: 2rem;
+  color: var(--icon-text-color);
+}
+.nav-items i {
+  color: var(--icons-primary-color);
+  font-size: 1.3rem;
+}
+
+.main {
+  flex-grow: 1;
+  width: 80%;
+  overflow-y: auto;
+}
+.main-title {
+  padding: 1.4rem;
+  background-color: var(--icons-secondary-color);
+}
+.main-title h2 {
+  letter-spacing: 1px;
+  color: var(--main-container-color);
+}
+.main-info {
+  padding: 1rem;
+}
