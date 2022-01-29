@@ -1,0 +1,207 @@
+:root {
+  --links-color: #9400d3;
+  --icons-color: #778899;
+  --white-color: #fff;
+  --secondary_fontColor: #707070;
+  --hover: #f5f5f5;
+  --btn_hover: #f9f5fe;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --list-color: #e0e0e0;
+  --list-hover: #c6c6c6;
+  --black-color: #000000;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* outline: 1px solid red; */
+}
+html {
+  font-size: 100%;
+}
+h2 {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 0.9rem;
+  color: var(--secondary_fontColor);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+a {
+  text-decoration: none;
+  color: var(--links-color);
+}
+
+/* Utility classes*/
+/* Utility classes*/
+.author-text {
+  font-size: 0.9rem;
+}
+.white_color {
+  color: var(--white-color);
+}
+.light_gray {
+  color: var(--secondary_fontColor);
+}
+.white_BackgroundColor {
+  background-color: var(--white-color);
+}
+.margin_1rem {
+  margin: 1rem;
+}
+.Container {
+  width: 350px;
+  box-shadow: var(--shadow);
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-flow: column wrap;
+}
+.flex-row {
+  flex-flow: row wrap;
+}
+.flex-order {
+  order: 1;
+}
+.flex-orderTwo {
+  order: 2;
+}
+.padding {
+  padding: 0.6rem;
+}
+
+/* .cars_header {
+}
+.card_description {
+} */
+
+/*image effect*/
+.image_effect {
+  -webkit-filter: brightness(100%);
+}
+
+/* Hover Effect*/
+/* Hover Effect*/
+.icons:hover {
+  background-color: var(--hover);
+  border-radius: 50%;
+}
+.btns:hover {
+  background-color: var(--btn_hover);
+}
+.image_effect:hover {
+  -webkit-filter: brightness(80%);
+  transition: all 1s ease;
+}
+.text_hover:hover {
+  background-color: var(--hover);
+  cursor: default;
+}
+
+/* card One */
+
+.card_footer {
+  padding: 1rem;
+}
+.action_buttons {
+}
+.card_icons {
+  margin-left: auto;
+  align-self: center;
+}
+
+/* icons styling*/
+.icons {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
+  color: var(--icons-color);
+  cursor: pointer;
+}
+/* Butttons styling*/
+.btns {
+  padding: 0.5rem;
+  background: transparent;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 2px;
+}
+
+/* Card Two*/
+.positionRealative {
+  position: relative;
+}
+.positionAbsolute {
+  position: absolute;
+  bottom: 1rem;
+}
+
+/* card Three */
+/* hide-Content */
+.hide-Content {
+  display: none;
+}
+
+/* card Six */
+.image-size {
+  width: 90px;
+  height: 100px;
+}
+.card_title {
+  margin-top: 1rem;
+}
+
+/* Chip Components*/
+/* Chip Components*/
+/* Chip Components*/
+
+.chipContainer {
+  width: 500px;
+  box-shadow: var(--shadow);
+}
+li {
+  display: inline-block;
+}
+.padding-icons {
+  padding: 0.3rem;
+}
+.input_text {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.chip-shape {
+  border-radius: 1rem;
+  background-color: var(--list-color);
+  padding: 0.4rem;
+  margin: 0.4rem;
+  cursor: default;
+}
+.X-icons {
+  color: var(--icons-color);
+  cursor: pointer;
+}
+
+.X-icons:hover {
+  color: var(--black-color);
+}
+.chip-shape:hover {
+  background-color: var(--list-hover);
+}
+
+/* @media only screen and (max-width: 600px) {
+  html {
+    font-size: 75%;
+  }
+} */
